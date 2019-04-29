@@ -1,0 +1,27 @@
+{
+  "name": "basic-node-application",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "babel-node ./src/bin/www",
+    "test": "nyc --reporter=html --reporter=text mocha --require @babel/register tests/*.spec.js --exit"
+  },
+  "dependencies": {
+    "async": "^2.6.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "mongoose": "^5.5.4",
+    "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.4",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.0.0"
+  }
+}
