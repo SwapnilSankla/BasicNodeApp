@@ -1,10 +1,16 @@
-This repository is sandbox to understand basics of node.js 
+This repository is to explore basics of node.js covering 
+1. ES6
+2. Express 
+3. MongoDB
+4. Mocha, Chai
+
+<h2>Details</h2>
 
 1. Use `npm init` to create new node project.
 2. Use `npm install -D <dependency>` to add dev dependency.
 3. Using `Babel` to transpile ES6 code to native javascript.
-    1. Make sure the babel dependencies added in `package.json` are added correctly.
-    2. Make sure you create `.babelrc` file to specify presets
+    1. Make sure that babel dependencies specified in `package.json` are added correctly.
+    2. Make sure that `.babelrc` file is created with appropriate presets
 4. Using `Express` framework for building API server.
 5. Instead of using `npm init` rather `express <project_name> --no-view` is used to generate 
    this project.
